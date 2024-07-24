@@ -1,0 +1,30 @@
+<div class="min-h-screen flex flex-col justify-center items-center bg-gray-100 p-4">
+  <div class="bg-white p-8 rounded shadow-md w-full max-w-md min-h-[600px] min-w-[300px]  flex flex-col justify-between">
+    <div>
+      <h1 class="font-bold text-center text-2xl mb-4">Sleep Buddy</h1>
+
+      <hr class="my-4 border-gray-300">
+      <h2 class="font-medium text-xl mb-2">Confirm you're ready</h2>
+      <p class="mb-10 text-gray-700">Please read our Privacy Policy and confirm the following declarations. Consent can be withdrawn in Settings at any time.</p>
+
+      <form class="space-y-4">
+        <div class="flex items-start mb-4">
+          <input type="checkbox" id="terms" class="mr-2 mt-1 cursor-pointer">
+          <label for="terms" class="text-gray-800">I agree to Sleep Buddy's Terms & Conditions and confirm that I am at least 16 years old.</label>
+        </div>
+        <div class="flex items-start mb-8">
+          <input type="checkbox" id="consent" class="mr-2 mt-1 cursor-pointer">
+          <label for="consent" class="text-gray-800">I consent to SleepBuddy using any personal health data I voluntarily share here. SleepBuddy can create and personalise my account and provide sleep assessments and guidance.</label>
+        </div>
+      </form>
+    </div>
+    <div class="mt-4 p-4 bg-gray-100 rounded">
+      <p class="text-gray-700 mb-2">In the next steps, you will set preferences or restrict the sharing of your health data through the Standard Health Consent process (SHC). This includes deciding whether to share it with your healthcare professionals, research projects, and other use cases.</p>
+    </div>
+
+    <div class="mt-10 flex justify-center">
+
+      <button type="button" class="rounded-full bg-blue-500 text-white py-2 px-6"[routerLink]="['/share']">Continue to Consent</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,77 @@
+<div class="min-h-screen flex flex-col justify-center items-center bg-gray-100 p-4">
+  <div class="bg-white p-8 rounded shadow-md w-full max-w-md min-h-[600px] min-w-[300px]  flex flex-col justify-between">
+    <div class="mb-3 w-full bg-gray-200 rounded-full dark:bg-gray-300">
+      <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 25%; opacity: 0.5;"> 1/4</div>
+    </div>
+
+      <h1 class="font-bold text-center text-2xl mb-4">Set α-SHC for SleepBuddy</h1>
+      <div class="flex justify-center items-center mb-4">
+        <!-- Progress bar (can be implemented later) -->
+      </div>
+      <h2 class="font-medium text-sm mb-2 flex items-center">
+        Share health data with:
+        <a [routerLink]="['/secondaryDataSharing']" class="ml-2 text-blue-500">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+          </svg>
+        </a>
+      </h2>
+      <div class="mb-4">
+        <label class="inline-flex items-center me-5 cursor-pointer">
+          <input type="checkbox" value="" class="sr-only peer" unchecked>
+          <div class="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-green-300 dark:peer-focus:ring-green-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-green-600"></div>
+          <!-- <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">Nobody</span> -->
+          <label for="nobody" class="ml-2">Nobody</label>
+        </label>
+        <!-- <label for="nobody">Nobody</label> -->
+      </div>
+      <div class="mb-4">
+        <label class="inline-flex items-center me-5 cursor-pointer">
+          <input type="checkbox" value="" class="sr-only peer" unchecked>
+          <div class="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-green-300 dark:peer-focus:ring-green-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-green-600"></div>
+          <!-- <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">Nobody</span> -->
+          <label for="nobody" class="ml-2">Healthcare clinic, PHR</label>
+        </label>
+      </div>
+      <hr class="my-4 border-gray-300">
+      <h2 class="font-medium text-sm mb-2 flex items-center">
+        Anonymize and share health data with:
+        <a [routerLink]="['/primaryDataSharing']" class="ml-2 text-blue-500">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+          </svg>
+        </a>
+      </h2>
+      <div class="mb-4">
+        <label class="inline-flex items-center me-5 cursor-pointer">
+          <input type="checkbox" value="" class="sr-only peer" unchecked>
+          <div class="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-green-300 dark:peer-focus:ring-green-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-green-600"></div>
+          <!-- <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">Nobody</span> -->
+          <label for="nobody" class="ml-2">Nobody</label>
+        </label>
+        <!-- <label for="nobody">Nobody</label> -->
+      </div>
+      <div class="mb-4">
+        <label class="inline-flex items-center me-5 cursor-pointer">
+          <input type="checkbox" value="" class="sr-only peer" unchecked>
+          <div class="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-green-300 dark:peer-focus:ring-green-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-green-600"></div>
+          <!-- <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">Nobody</span> -->
+          <label for="nobody" class="ml-2">All medical research</label>
+        </label>
+        <!-- <label for="nobody">Nobody</label> -->
+      </div>
+      <div class="mb-4 relative">
+        <button (click)="toggleDropdown()" class="text-blue-500 font-medium">Choose options:</button>
+        <div [class.hidden]="!dropdownOpen" class="absolute bg-white border rounded mt-2 w-full shadow-lg">
+          <div class="bg-gray-100 p-2 rounded cursor-pointer">University example</div>
+          <div class="bg-gray-100 p-2 rounded cursor-pointer mt-2">Pharmaceutical example</div>
+          <div class="bg-gray-100 p-2 rounded cursor-pointer mt-2">Public health example</div>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 gap-4 mt-4">
+
+        <button type="button" class="rounded-full bg-blue-500 text-white py-2 px-6"[routerLink]="['/secondStep']">Continue to Consent</button>
+        <button type="button" class="rounded-full border-2 border-blue-500 bg-white text-blue-500 py-2 px-6 hover:bg-gray-100">Decline and Return</button>
+      </div>
+    </div>
+  </div>

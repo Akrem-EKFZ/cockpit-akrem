@@ -1,0 +1,15 @@
+<div class="min-h-screen flex flex-col justify-center items-center bg-gray-100 p-4">
+  <div class="bg-white p-8 rounded shadow-md w-full max-w-md min-h-[600px] min-w-[300px]  flex flex-col justify-between">
+
+    <div>
+      <h1 class="font-bold text-center text-2xl mb-4">Sleep Buddy</h1>
+      <hr class="my-4 border-gray-300">
+      <h2 class="font-medium text-xl mb-2">Share Sleep Buddy health information with your HCP and Research</h2>
+      <p class="my-10 text-gray-700">SleepBuddy App collects health information. You can select now whether you want to share this data with your HCP, research or no one.</p>
+    </div>
+    <div class="grid grid-cols-1 gap-4">
+      <button type="button" class="rounded-full border-2 border-blue-500 bg-white text-blue-500 py-2 px-6 hover:bg-gray-100">Continue without Sharing</button>
+      <button type="button" class="rounded-full bg-blue-500 text-white py-2 px-6" [routerLink]="['/firstStep']">Accept & Continue</button>
+    </div>
+  </div>
+</div>
