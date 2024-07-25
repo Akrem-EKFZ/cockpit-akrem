@@ -1,0 +1,13 @@
+{
+  "routes": [
+    "/confirm",
+    "/createAccount",
+    "/firstStep",
+    "/informationDataSharing",
+    "/primaryDataSharing",
+    "/secondaryDataSharing",
+    "/secondStep",
+    "/share",
+    "/syncConsent"
+  ]
+}
